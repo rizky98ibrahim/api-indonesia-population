@@ -21,7 +21,7 @@ def seed_data(num_records):
                 alamat=fake.address(),
                 golongan_darah=fake.random_element(elements=('A', 'B', 'AB', 'O')),
                 jenis_kelamin=fake.random_element(elements=('L', 'P')),
-                kewarganegaraan=fake.random_element(elements=('WNI', 'WNA')),
+                kewarganegaraan=fake.random_element(elements=('Indonesia', 'Asing')),
                 pekerjaan=fake.job(),
                 pendidikan_terakhir=fake.random_element(elements=('SD', 'SMP', 'SMA', 'D3', 'S1', 'S2', 'S3')),
                 status_pernikahan=fake.random_element(elements=('Belum Menikah', 'Menikah', 'Cerai', 'Cerai Mati')),

@@ -40,7 +40,10 @@
             "updated_at": "2023-02-06 17:43:05"
         },
         {
-        ...
+
+        },
+        {
+
         }
     ],
     "limit": 10,
@@ -210,6 +213,5 @@
     "status": "success",
     "message": "Population data deleted successfully",
     "data": null
-}
 }
 ```
